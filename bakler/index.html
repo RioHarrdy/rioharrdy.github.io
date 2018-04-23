@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Баклер</title>
+    <meta content="" name="author">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+    <meta content="ie=edge" http-equiv="x-ua-compatible">
+    <link rel="stylesheet" href="assets/css/foundation.css">
+    <link rel="stylesheet" href="assets/libs/font-awesome/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/libs/slick/slick.css">
+    <link rel="stylesheet" href="assets/libs/slick/slick-theme.css">
+    <link rel="stylesheet" href="assets/libs/threesixty/threesixty.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+    <script src="assets/js/foundation.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js" defer></script>
+    <script src="assets/libs/threesixty/threesixty.min.js" defer></script>
+    <script src="assets/libs/slick/slick.min.js" defer></script>
+    <script src="assets/libs/animateNumber/jquery.animateNumber.js" defer></script>
+    <script src="assets/js/app.js" defer></script><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="popup share__popup hidden">
+        <div class="popup__wrap hidden" data-item-share="1">
+          <div class="btn-close">X</div>
+          <div class="popup__text">Выставка в Воронеже, посвященная предпринимателю Вильгельму Столлю проходит с 2014 г. На мероприятии было много сессий: управление персоналом, бизнес процессами, тайм менеджмент. Биржа контактов – это одна из точек соприкосновения с клиентами. Малый и средний бизнес – могут стать поставщиками или начать партнерские отношения с крупным бизнесом. Нашу команду заинтересовала тема управления персоналом. Мы взяли с сессий то, что помогло нам выстроить процесс по-новому. Ввели матрицу обязанностей, исходя из которой каждый менеджер полностью несет финансовую и управленческую ответственность за поставку. В нашей компании в случае форс мажора друг на друга ответственность не переваливают.</div>
+        </div>
+        <div class="popup__wrap hidden" data-item-share="2">
+          <div class="btn-close">X</div>
+          <div class="popup__text">Для этой выставки мы готовили свой стенд. Привезли большой экран, на котором показывали процесс производства нашей продукции. Гости подходили и оставались смотреть, говорили, завораживает, что очень интересно. Эта выставка принесла новые контакты и партнерские соглашения.</div>
+        </div>
+        <div class="popup__wrap hidden" data-item-share="3">
+          <div class="btn-close">X</div>
+          <div class="popup__text">Предприятия малого бизнеса получают в рамках этой программы консультационную ( наставничество со стороны крупного бизнеса ) и финансовую ( льготное кредитование ) поддержку. Эта программа помогла нам познакомиться и подружиться с первыми клиентами. Здесь распространена практика ведения ученика наставником,который имеет большой опыт в создании и развитии бизнеса.</div>
+        </div>
+        <div class="popup__wrap hidden" data-item-share="4">
+          <div class="btn-close">X</div>
+          <div class="popup__text">Задача Программы акселерации для молодых компаний – систематизация всех направлений бизнеса, которая дает возможность вырасти минимум на 25% за короткий срок. Здесь мы научились формировать финансовые потоки и управлять ими. Начали более плотно заниматься бюджетированием и планами среднесрочного и долгосрочного развития. Это помогает более четко видеть цель, понимать для чего и как мы ее достигаем.</div>
+        </div>
+        <div class="popup__wrap hidden" data-item-share="5">
+          <div class="btn-close">X</div>
+          <div class="popup__text">У нас в планах запуск своего производства. Эта программа позволяет успешным бизнес проектам получить финансовую помощь. Нам важно создать больше рабочих мест и поднять производственный потенциал нашего региона в сфере легкой промышленности.</div>
+        </div>
+      </div>
+      <div class="popup header__popup hidden">
+        <div class="popup__wrap hidden" data-item-header="1">
+          <div class="btn-close">X</div>
+          <div class="popup__text popup__text-bold">Мы перезвоним Вам в течение 5 минут</div>
+          <div class="popup__text">в часы работы нашего офиса ( 9:00 - 17:00 ) либо свяжемся с Вами в период с 9:00 до 10:00 в ближайший рабочий день.</div>
+          <form class="form popup__form">
+            <input class="input__phone input__text" type="tel" placeholder="Ваш номер" name="Телефон" required>
+            <input class="main__btn" type="submit" value="Опубликовать">
+          </form>
+          <div class="popup__text popup__text-bold">Если наш специалист не перезвонил Вам вовремя, сообщите и Вы<span class="popup__text-orange"> получите скидку 2%</span> на выбранную спецодежду.</div>
+        </div>
+      </div>
+      <div class="certificates-popup">
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="1"></div>
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="2"></div>
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="3"></div>
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="4"></div>
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="5"></div>
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="6"></div>
+        <div class="certificates-popup__item"><img class="certificates-popup__item-img" src="assets/img/certificate.jpg" data-item="7"></div>
+      </div>
+      <div class="FScatalog popup hidden">
+        <div class="popup__wrap hidden" data-item-FScatalog="1">
+          <div class="btn-close">X</div>
+          <p class="popup__text-m">Полный каталог спецодежды и обуви с указанием цен будет автоматически отправлен<span class="popup__text-orange"> Вам в течение 5 секунд.</span></p>
+          <form class="form">
+            <input class="order__input" placeholder="Ваше имя" type="text">
+            <input class="order__input" placeholder="Ваш E-mail" type="email">
+            <button class="order__button">Получить каталог</button>
+          </form>
+          <p class="popup__text">Определите тип, цвет, посмотрите стоимость и перезвоните нам - вы узнаете, как снизить стоимость заказа, получить бесплатное нанесение логотипов, рассрочку платежей или доставку образцов за наш счет.</p>
+        </div>
+      </div>
+      <div class="MrightSide5 popup hidden">
+        <div class="popup__wrap hidden" data-item-MrightSide5="1">
+          <div class="btn-close">X</div>
+          <p class="popup__text-m">При заказе спецодежды от 30 комплектов мы доставим образцы в Ваш офис за свой счет.</p>
+          <p class="popup__text"><span class="popup__text-orange">Обратите внимание</span>, что Вы можете объединиться с партнерами при формировании заказа и<span class="popup__text-orange"> получить еще больше бонусов и скидок.</span></p>
+        </div>
+      </div>
+      <div class="MrightSide6 popup hidden">
+        <div class="popup__wrap hidden" data-item-MrightSide6="1">
+          <div class="btn-close">X</div>
+          <ul class="popup__list">
+            <li class="popup__li">При заказе на сумму<span class="popup__text-orange"> от 50 000 руб.</span></li>
+            <li class="popup__li">Вы получаете скидку<span class="popup__text-orange"> 3%</span></li>
+            <li class="popup__li">При заказе на сумму<span class="popup__text-orange"> от 100 000 руб.</span></li>
+            <li class="popup__li">Вы получаете скидку<span class="popup__text-orange"> 5%</span></li>
+            <li class="popup__li">При заказе на сумму<span class="popup__text-orange"> от 150 000 руб.</span></li>
+            <li class="popup__li">Вы получаете скидку<span class="popup__text-orange"> 7%</span></li>
+          </ul>
+          <p class="popup__text"><span class="popup__text-orange">Обратите внимание</span><span class="popup__text-bold">, что все скидки суммируются.</span></p>
+          <p class="popup__text">Кроме того, Вы можете объединиться с партнерами или с любой другой компанией при формировании заказа, чтобы</p><span class="popup__text-orange">получить еще больше бонусов и скидок.</span>
+          <p class="popup__text"></p><span class="popup__text-bold">Например, скидка</span><span class="popup__text-orange"> 3%</span><span class="popup__text-bold"> (одной компании) и скидка</span><span class="popup__text-orange"> 5%</span><span class="popup__text-bold"> (другой компании)</span><span class="popup__text-orange">позволит получить Вам максимальную скидку</span><span class="popup__text-bold">.</span>
+        </div>
+      </div>
+      <div class="MrightSide7 popup hidden">
+        <div class="popup__wrap hidden" data-item-MrightSide7="1">
+          <div class="btn-close">X</div>
+          <p class="popup__text-bold">При заказе от 50 комплектов спецодежды мы за свой счет нанесем на них Ваш логотип.</p>
+          <p class="popup__text">Если Ваш заказ меньше - посмотрите текущие акции. Для некоторых не нужно ничего покупать.</p>
+        </div>
+      </div>
+      <div class="MrightSide8 popup hidden">
+        <div class="popup__wrap hidden" data-item-MrightSide8="1">
+          <div class="btn-close">X</div>
+          <p class="popup__text"><span class="popup__text-orange">Каждому, кто напишет реальный отзыв</span> о том, когда и для чего обратился к нам в компанию, что порадовало, а что можно улучшить, какое впечатление произвели наши специалисты и как проявили себя заказанные товары в процессе эксплуатации,<span class="popup__text-orange"> МЫ ДАРИМ НАБОР РОЛЛОВ С НАШИМ ЛОГОТИПОМ или ВЕСЕЛЫЕ, НЕОБЫЧНЫЕ ФИРМЕННЫЕ ОФИСНЫЕ КРУЖКИ,</span> если Вы живете в другом городе.</p>
+          <p class="popup__text popup__text-bold">Если вам что-то не понравилось – напишите отзыв и мы найдем способ исправить ситуацию в работе с вами и проследим, чтобы это не повторялось с другими.</p>
+          <form class="form">
+            <input class="order__input" placeholder="Ваше имя" type="text">
+            <input class="order__input" placeholder="Название компании" type="text">
+            <textarea class="textarea" placeholder="Ваш отзыв"></textarea>
+            <button class="order__button">Опубликовать</button>
+          </form>
+        </div>
+      </div>
+      <div class="MrightSideStock popup hidden">
+        <div class="popup__wrap hidden" data-item-MrightSideStock="1">
+          <div class="btn-close">X</div><span class="popup__text popup__text-bold">Конкурс "Придумай акцию"</span>
+          <p class="popup__text">Мы Вас ценим и хотим сделать работу с нами не просто стабильной, но и приятной, интересной. Поэтому обращаемся к Вам - посоветоваться. Какая акция, конкурс, розыгрыш могли бы Вас заинтересовать? Автор самой интересной, с точки зрения бизнеса, идеи получит в подарок набор роллов с логотипом.</p><span class="popup__text popup__text-bold">Идеи принимаем с 15 июня по 15 июля 2017 г.</span>
+          <p class="popup__text">Более подробно о прошедших и планируемых акциях читайте в<a class="popup__link" href="#">Блоге.</a></p>
+          <p class="popup__text">Оставьте заявку, чтобы мы присылали Вам свежий каталог с актуальными ценами (раз в 6 месяцев), а также информацию по текущим скидкам, акциям, розыгрышам комплектов спецодежды и средств индивидуальной защиты:</p>
+          <form class="form">
+            <input class="order__input" placeholder="Ваш E-mail" type="email">
+            <button class="order__button">Получить каталог</button>
+          </form>
+        </div>
+      </div>
+      <div class="popup requires__popup hidden">
+        <div class="popup__wrap hidden" data-item-requires="1">
+          <div class="btn-close">X</div>
+          <div class="popup__text"><span class="popup__text-orange">Каждому, кто напишет реальный отзыв</span> о том, когда и для чего обратился к нам в компанию, что порадовало, а что можно улучшить, какое впечатление произвели наши специалисты и как проявили себя заказанные товары в процессе эксплуатации,<span class="popup__text-uppercase popup__text-orange"> МЫ ДАРИМ НАБОР РОЛЛОВ С НАШИМ ЛОГОТИПОМ</span> или<span class="popup__text-uppercase popup__text-orange"> ВЕСЕЛЫЕ, НЕОБЫЧНЫЕ ФИРМЕННЫЕ ОФИСНЫЕ КРУЖКИ,</span> если Вы живете в другом городе.</div>
+          <div class="popup__text popup__text-bold">Если вам что-то не понравилось – напишите отзыв, и мы найдем способ исправить ситуацию в работе с вами и проследим, чтобы это не повторялось с другими.</div>
+          <form class="form popup__form">
+            <input class="input__text" type="text" placeholder="Ваше имя" name="Имя" required>
+            <input class="input__company" type="text" placeholder="Название компании" name="Компания" required>
+            <textarea class="textarea" type="text" placeholder="Ваш отзыв" name="Отзыв" required></textarea>
+            <input class="main__btn" type="submit" value="Опубликовать">
+          </form>
+        </div>
+      </div>
+      <div class="popup production__popup hidden">
+        <div class="popup__wrap hidden" data-item-production="1">
+          <div class="btn-close">X</div>
+          <div class="production__popup-title">Костюм СТРАЙК женский</div>
+          <div class="production__popup-price"><span>Цена:</span> 1547 руб.</div>
+          <ul class="production__popup-list">
+            <li class="production__popup-item">Куртка удлиненная с центральной застежкой на молнию и планку.</li>
+            <li class="production__popup-item">Вертикальные рельефные швы на спинке создают полуприлегающий силуэт.</li>
+            <li class="production__popup-item">Нагрудные накладные карманы с клапанами, боковые карманы в рельефах.</li>
+            <li class="production__popup-item">Рукава с манжетами с застежкой на контактную ленту.</li>
+            <li class="production__popup-item">Боковая отделочная деталь полочки, кокетки полочек и спинки со световозвращающим кантом.</li>
+            <li class="production__popup-item">Брюки на поясе со шлевками для ремня и эластичной тесьмой.</li>
+            <li class="production__popup-item">Центральная застежка на молнию.</li>
+            <li class="production__popup-item">Верхние внутренние карманы.</li>
+            <li class="production__popup-item">Один накладной карман с клапаном на боковой поверхности брюк.</li>
+            <li class="production__popup-item">Сзади накладной прямой карман и специальный карман с петлей-держателем для инструментов.</li>
+            <li class="production__popup-item">Отделочные элементы со светоотражающим кантом в нижней части брюк.</li>
+          </ul><a class="main__btn production__popup-btn" href="#" data-item-fscatalog="1">Полный перечень смотрите в каталоге</a>
+        </div>
+        <div class="popup__wrap hidden" data-item-production="2">
+          <div class="btn-close">X</div>
+          <div class="production__popup-title">Костюм СТРАЙК-1!!!</div>
+          <div class="production__popup-price"><span>Цена:</span> 1390 руб.</div>
+          <ul class="production__popup-list">
+            <li class="production__popup-item">Куртка укороченная с центральной застежкой на молнию и ветрозащитную планку.</li>
+            <li class="production__popup-item">Нагрудные накладные карманы с клапанами, специальный карман для телефона.</li>
+            <li class="production__popup-item">Функциональные складки на спинке для свободы движения.</li>
+            <li class="production__popup-item">Боковая деталь из отделочной ткани.</li>
+            <li class="production__popup-item">Кокетки полочек и спинки со световозвращающим кантом.</li>
+            <li class="production__popup-item">Ширина куртки регулируется по низу патами с контактной лентой.</li>
+            <li class="production__popup-item">Брюки на поясе со шлевками для ремня и эластичной тесьмой.</li>
+            <li class="production__popup-item">Центральная застежка на молнию.</li>
+            <li class="production__popup-item">Верхние внутренние карманы.</li>
+            <li class="production__popup-item">Один накладной карман с клапаном на боковой поверхности брюк.</li>
+            <li class="production__popup-item">Сзади накладной прямой карман и специальный карман с петлей-держателем для инструментов.</li>
+            <li class="production__popup-item">Отделочные элементы со светоотражающим кантом в нижней части брюк.</li>
+          </ul><a class="main__btn production__popup-btn" href="#" data-item-fscatalog="1">Полный перечень смотрите в каталоге</a>
+        </div>
+        <div class="popup__wrap hidden" data-item-production="3">
+          <div class="btn-close">X</div>
+          <div class="production__popup-title">Костюм ПАМИР-2!!!</div>
+          <div class="production__popup-price"><span>Цена:</span> 3190 руб.</div>
+          <ul class="production__popup-list">
+            <li class="production__popup-item">Костюм - куртка и полукомбинезон.</li>
+            <li class="production__popup-item">Куртка с застежкой на молнию и контактную ленту, кокетка с цельнокроеными клапанами нагрудных карманов, эффектная отделка из контрастной ткани.</li>
+            <li class="production__popup-item">Полукомбинезон с застежкой на молнию, удобными боковыми и накладными карманами для инструмента.</li>
+            <li class="production__popup-item">Усиление в области колен с отверстием для амортизационных накладок, длина бретелей регулируется с помощью фастекса.</li>
+            <li class="production__popup-item">Костюм с лентой СОП 50 мм на спинке, рукавах, по низу полукомбинезона.ото крупным планом.</li>
+          </ul><a class="main__btn production__popup-btn" href="#" data-item-fscatalog="1">Полный перечень смотрите в каталоге</a>
+        </div>
+      </div>
+      <header class="header">
+        <div class="container header__wrap">
+          <div class="header__logo"><a href="index.html"><img src="assets/img/header__logo.png"></a></div>
+          <div class="header__social">
+            <ul class="social__list">
+              <li class="social__item"><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb.png"/></a></li>
+              <li class="social__item"><a href="https://new.vk.com/" target="_blank"><img src="assets/img/vk.png"/></a></li>
+              <li class="social__item"><a href="https://www.whatsapp.com" target="_blank"><img src="assets/img/wapp.png"/></a></li>
+              <li class="social__item"><a href="https://telegram.org/" target="_blank"><img src="assets/img/tg.png"/></a></li>
+            </ul>
+          </div>
+          <div class="header__contact"><a class="phone__link phone__link-first" href="tel:+74732294659"><i class="fa fa-phone" aria-hidden="true"></i>+ 7 (473) 229-46-59</a><a class="phone__link" href="tel:+74733003708">+ 7 (473) 300-37-08</a><a class="email__link" href="mailto: bakler.cpec@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>bakler.cpec@gmail.com</a>
+          </div><a class="main__btn header__btn" href="#" data-item-header="1">Обратный звонок</a>
+        </div>
+        <nav class="header__nav">
+          <div class="container">
+            <div class="burger-menu">
+              <div class="burger"></div>
+            </div>
+            <ul class="header__mnu-list">
+              <li class="header__mnu-item dropDown"><a class="header__mnu-link">Нормы выдачи спецодежды</a>
+                <ul class="header__mnu-list-in">
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate1.html">1. Работник обязан правильно применять СИЗ</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate2.html">2. Профессии, на которые распространяется положение о выдаче спецодежды работникам</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate3.html">3. Профессии, для которых нужна спецодежда</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate4.html">4. Отраслевые нормы выдачи</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate5.html">5. Типовые (базовые) нормы выдачи спецодежды для сквозных профессий </a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate6.html">6. Порядок выдачи спецодежды </a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate7.html">7. Уход и хранение спецодежды, спецобуви и других СИЗ</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate8.html">8. Требования к выбору и применению средств индивидуальной защиты</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate9.html">9. Документооборот организации по выдаче и возврату спецодежды</a></li>
+                  <li class="header__mnu-item-in"><a class="header__mnu-link-in" href="rate10.html">10. Бухгалтерский и налоговый учет СИЗ</a></li>
+                </ul>
+              </li>
+              <li class="header__mnu-item"> <a class="header__mnu-link" href="#mistakes">Как сэкономить</a></li>
+              <li class="header__mnu-item"><a class="header__mnu-link" href="#requires">Отзывы</a></li>
+              <li class="header__mnu-item"><a class="header__mnu-link" href="#certificates">Сертификаты</a></li>
+              <li class="header__mnu-item"><a class="header__mnu-link header__mnu-link-ht" href="#team">Команда</a></li>
+              <li class="header__mnu-item"><a class="header__mnu-link" href="#share">Программы развития предпринимательства </a></li>
+              <li class="header__mnu-item"><a class="header__mnu-link" href="#contact">Контакты</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <section class="firstScreen">
+        <div class="container">
+          <div class="firstScreen__leftSide">
+            <h1 class="FSleftSide__head">Баклер: прочная, эргономичная сезонная спецодежда <br>оптом</h1>
+            <h2 class="FSleftSide__delivery">Доставка по Москве</h2>
+            <div class="FSleftSide__products">
+              <div class="FSleftSide__item"><img class="FSleftSide__item-img" src="assets/img/firstscreen-product/item1.png">
+                <p class="FSleftSide__item-text">Модели, защищающие от общепроизводственных загрязнений</p>
+              </div>
+              <div class="FSleftSide__item"><img class="FSleftSide__item-img" src="assets/img/firstscreen-product/item2.png">
+                <p class="FSleftSide__item-text">Средства индивидуальной защиты</p>
+              </div>
+              <div class="FSleftSide__item"><img class="FSleftSide__item-img" src="assets/img/firstscreen-product/item3.png">
+                <p class="FSleftSide__item-text">Сезонная спецодежда</p>
+              </div>
+              <div class="FSleftSide__item"><img class="FSleftSide__item-img" src="assets/img/firstscreen-product/item4.png">
+                <p class="FSleftSide__item-text">Спецобувь</p>
+              </div>
+            </div>
+            <div class="FSleftSide__btns"><a class="main__btn FSleftSide__btn FScatalog__btn" data-item-FScatalog="1">Получить полный каталог за 5 секунд</a><a class="main__btn FSleftSide__btn FSproduction__btn" href="#production">Посмотреть 3D-модели спецодежды и краш-тест</a></div>
+          </div>
+          <div class="firstScreen__rightSide"><img class="FSrightSide__img" src="assets/img/firstscreen-people.png"></div>
+        </div>
+      </section>
+      <section class="mistakes" id="mistakes">
+        <div class="container">
+          <div class="mistakes__leftSide"><img class="MleftSide__img" src="assets/img//mistakes-man.png"></div>
+          <div class="mistakes__rightSide"><span class="mistakes__head b__head">Как<span class="o__head"> избежать ошибок</span>   при заказе<span class="o__head"> и сэкономить</span></span><span class="mistakes__head-question">?</span>
+            <div class="MrightSide__items">
+              <div class="MrightSide__item"><a class="MrightSide__link" href="#crash"><img class="MrightSide__item-img" src="assets/img//mistakes-items/item1.png">
+                  <p class="MrightSide__item-text">Оцените<span class="MrightSide__item-text_black"> качество</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link" href="#requires"><img class="MrightSide__item-img" src="assets/img//mistakes-items/item2.png">
+                  <p class="MrightSide__item-text">Проверьте<span class="MrightSide__item-text_black"> рекомендации</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link" href="#production"><img class="MrightSide__item-img" src="assets/img/mistakes-items/item3.png">
+                  <p class="MrightSide__item-text">Определите<span class="MrightSide__item-text_black"> модель и размеры</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link" href="#order"><img class="MrightSide__item-img" src="assets/img/mistakes-items/item4.png">
+                  <p class="MrightSide__item-text">Подберите<span class="MrightSide__item-text_black"> средства индивидуальной защиты и обувь</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link MrightSide5_btn" href="#" data-item-MrightSide5="1"><img class="MrightSide__item-img" src="assets/img/mistakes-items/item5.png">
+                  <p class="MrightSide__item-text">Получите<span class="MrightSide__item-text_black"> доставку</span> образцов<span class="MrightSide__item-text_black"> за наш счёт</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link MrightSide6_btn" href="#" data-item-MrightSide6="1"><img class="MrightSide__item-img" src="assets/img/mistakes-items/item6.png">
+                  <p class="MrightSide__item-text">Получите<span class="MrightSide__item-text_black"> постоянную скидку</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link MrightSide7_btn" href="#" data-item-MrightSide7="1"><img class="MrightSide__item-img" src="assets/img/mistakes-items/item7.png">
+                  <p class="MrightSide__item-text">Закажите нанесение<span class="MrightSide__item-text_black"> логотипа за наш счёт</span></p></a></div>
+              <div class="MrightSide__item"><a class="MrightSide__link MrightSide8_btn" href="#" data-item-MrightSide8="1"><img class="MrightSide__item-img" src="assets/img/mistakes-items/item8.png">
+                  <p class="MrightSide__item-text">Оставьте отзыв и<span class="MrightSide__item-text_black"> получите скидку</span></p></a></div>
+            </div><a class="main__btn MrightSide__btn" href="#" data-item-MrightSideStock="1">Примите участие в акции</a>
+          </div>
+        </div>
+      </section>
+      <section class="production" id="production">
+        <div class="container">
+          <div class="production__title o__head">3D-визуализация<br><span class="b__head">самых популярных моделей</span></div>
+          <div class="production__slider">
+            <div class="production__slider-item">
+              <div class="threesixty production__rotate3"><img class="threesixty__img" src="assets/img/3d__icon.png">
+                <div class="spinner"><span>0%</span></div>
+                <ol class="production_images-3 production_images"></ol>
+              </div>
+              <div class="production__item-title">Костюм “Страйк” женский</div>
+              <div class="production__item-text">Костюм состоит из удлиненной куртки и брюк.</div>
+              <div class="production__item-price">Цена:<span>1547 руб.</span></div><a class="main__btn production__btn" href="#" data-item-production="1">Подробнее</a>
+            </div>
+            <div class="production__slider-item">
+              <div class="threesixty production__rotate1"><img class="threesixty__img" src="assets/img/3d__icon.png">
+                <div class="spinner"><span>0%</span></div>
+                <ol class="production_images-1 production_images"></ol>
+              </div>
+              <div class="production__item-title">Костюм “Страйк” мужской</div>
+              <div class="production__item-text">Костюм состоит из укороченной куртки и брюк.</div>
+              <div class="production__item-price">Цена:<span>1390 руб.</span></div><a class="main__btn production__btn" href="#" data-item-production="2">Подробнее</a>
+            </div>
+            <div class="production__slider-item">
+              <div class="threesixty production__rotate2"><img class="threesixty__img" src="assets/img/3d__icon.png">
+                <div class="spinner"><span>0%</span></div>
+                <ol class="production_images-2 production_images"></ol>
+              </div>
+              <div class="production__item-title">Костюм “Памир” мужской</div>
+              <div class="production__item-text">Костюм состоит из куртки и полукомбинезона.</div>
+              <div class="production__item-price">Цена:<span>3190 руб.</span></div><a class="main__btn production__btn" href="#" data-item-production="3">Подробнее</a>
+            </div>
+            <div class="production__slider-item">
+              <div class="threesixty production__rotate4"><img class="threesixty__img" src="assets/img/3d__icon.png">
+                <div class="spinner"><span>0%</span></div>
+                <ol class="production_images-4 production_images"></ol>
+              </div>
+              <div class="production__item-title">Костюм “Страйк” мужской</div>
+              <div class="production__item-text">Костюм состоит из укороченной куртки и брюк.</div>
+              <div class="production__item-price">Цена:<span>1390 руб.</span></div><a class="main__btn production__btn" href="#" data-item-production="2">Подробнее</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="crash" id="crash">
+        <div class="container">
+          <div class="crash__leftSide"><span class="crash__head o__head">Посмотрите краш-тест <br><span class="b__head">самых популярных моделей <br></span><span class="l__head">и убедитесь в их надёжности</span></span>
+            <!--<iframe class="crash__video" id="ytplayer" width="625" height="355" src="https://www.youtube.com/embed/ba8KygCI8c8?autoplay=0&enablejsapi=1" frameborder="0" allowfullscreen></iframe>-->
+            <video class="crash__video" width="625" height="355" src="assets/img/video/crash.mp4" controls autobuffer></video>
+          </div>
+          <div class="crash__rightSide"><img class="CrightSide__img" src="assets/img//crash.png" alt=""></div>
+        </div>
+      </section>
+      <section class="requires" id="requires">
+        <div class="container">
+          <div class="requires__title b__head">Отзывы<span class="o__head"> реальных клиентов</span></div>
+          <div class="requires__slider slider">
+            <div class="requires__slider-item">
+              <div class="requires__item-text"><i class="fa fa-quote-left requires__quote" aria-hidden="true"></i><span class="requires__item-text-title">ВСЕ ВОПРОСЫ РЕШАЮТСЯ БЫСТРО</span><span class="requires__item-text-text">Работали с очень приветливым молодым человеком. Добродушный, внимательный, вежливый, всегда перезвонит...</span><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="requires__under-text">ООО “Тренд“, Светлана, г. Воронеж</div>
+              <div class="requires__date">08.02.2017</div>
+            </div>
+            <div class="requires__slider-item">
+              <div class="requires__item-text"><i class="fa fa-quote-left requires__quote" aria-hidden="true"></i><span class="requires__item-text-title">БЫСТРО, УДОБНО</span><span class="requires__item-text-text">Очень удобно заказывать по интернету. Все быстро привозят, качество соответствует заявленному.</span><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="requires__under-text">ООО “РОСТР“,<br>Артем Юрьевич, г. Воронеж</div>
+              <div class="requires__date">08.02.2017</div>
+            </div>
+            <div class="requires__slider-item">
+              <div class="requires__item-text"><i class="fa fa-quote-left requires__quote" aria-hidden="true"></i><span class="requires__item-text-title">ХОРОШЕЕ СОТРУДНИЧЕСТВО</span><span class="requires__item-text-text">Спасибо за хорошее сотрудничество! Качественную и своевременную поставку.</span><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="requires__under-text">Сеть магазинов  "Порядок"</div>
+              <div class="requires__date">09.01.2017</div>
+            </div>
+            <div class="requires__slider-item">
+              <div class="requires__item-text"><i class="fa fa-quote-left requires__quote" aria-hidden="true"></i><span class="requires__item-text-title">ХОРОШЕЕ СОТРУДНИЧЕСТВО</span><span class="requires__item-text-text">Спасибо за хорошее сотрудничество! Качественную и своевременную поставку.</span><i class="fa fa-angle-down" aria-hidden="true"></i></div>
+              <div class="requires__under-text">Сеть магазинов  "Порядок"</div>
+              <div class="requires__date">09.01.2017</div>
+            </div>
+          </div><a class="main__btn requires__btn" href="#" data-item-requires="1">Оставить отзыв</a>
+        </div>
+      </section>
+      <section class="certificates" id="certificates">
+        <div class="container"><span class="certificates__head w__head">Сертификаты соответствия</span><span class="certificates__disc">Наш товар имеет все необходимые документы от производителя</span>
+          <div class="certificates__slider slider">
+            <div class="certificates__item" data-item="1"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+            <div class="certificates__item" data-item="2"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+            <div class="certificates__item" data-item="3"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+            <div class="certificates__item" data-item="4"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+            <div class="certificates__item" data-item="5"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+            <div class="certificates__item" data-item="6"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+            <div class="certificates__item" data-item="7"><img class="certificates__item-img" src="assets/img/certificate.jpg"></div>
+          </div>
+        </div>
+      </section>
+      <section class="statistics">
+        <div class="container">
+          <div class="statistics__content">
+            <div class="statistics__item">
+              <div class="statistics__item-top"><span class="statistics__head" id="statistics__number-1">0</span><span class="statistics__head_small">года</span></div>
+              <div class="statistics__item-bot">
+                <p class="statistics__text">Мы продаем оптовые партии спецодежды, обуви, средств индивидуальной защиты.</p>
+              </div>
+            </div>
+            <div class="statistics__item">
+              <div class="statistics__item-top"><span class="statistics__head" id="statistics__number-2">0</span><span class="statistics__head_small">сделок</span></div>
+              <div class="statistics__item-bot">
+                <p class="statistics__text">Заключили с начала 2017 года.</p>
+              </div>
+            </div>
+            <div class="statistics__item">
+              <div class="statistics__item-top"><span class="statistics__head" id="statistics__number-3">0</span><span class="statistics__head_small">клиентов</span></div>
+              <div class="statistics__item-bot">
+                <p class="statistics__text">Мы гордимся возможностью работать с каждым из вас.</p>
+              </div>
+            </div>
+            <div class="statistics__item">
+              <div class="statistics__item-top"><span class="statistics__head" id="statistics__number-4">0</span><span class="statistics__head_small">%</span></div>
+              <div class="statistics__item-bot">
+                <p class="statistics__text">Клиентов обращаются к нам повторно после первого обращения.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="order" id="order">
+        <div class="container"><span class="order__head w__head">Закажите<span class="o__head"> полный каталог</span> спецодежды <br>прямо сейчас</span><img class="order__img" src="assets/img/order-book.png">
+          <div class="order__content">
+            <div class="order__leftSide">
+              <p class="order__text">Полный каталог спецодежды и обуви с указанием цен будет автоматически отправлен Вам<br><span class="order__text-orange">В течение 5 секунд.</span></p>
+            </div>
+            <div class="order__rightSide">
+              <form class="form">
+                <input class="order__input" placeholder="Ваше имя" type="text">
+                <input class="order__input" placeholder="Ваш E-mail" type="email">
+                <button class="order__button">Получить каталог</button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="team" id="team">
+        <div class="container">
+          <div class="team__title b__head">Мы -<span class="o__head"> команда</span></div>
+          <ul class="team__list">
+            <!--video(src=`${src}video/main.mp4`).team__item-video.team__item-video-main#team__item-video-main-->
+            <li class="team__item">
+              <video class="team__item-video" src="assets/img/video/first__3.mp4"></video>
+              <div class="team__item-text">
+                <div class="team__text-black">Зимановский Евгений Александрович</div>
+                <div class="team__text-orange">Исполнительный директор компании<br>“БАКЛЕР“</div>
+                <div class="team__text-light">Контролирует бизнес-процессы</div>
+              </div>
+            </li>
+            <li class="team__item">
+              <video class="team__item-video" src="assets/img/video/first__2.mp4"></video>
+              <div class="team__item-text">
+                <div class="team__text-black">Шкарин Алексей Владимирович</div>
+                <div class="team__text-orange">Директор компании<br>“БАКЛЕР“</div>
+                <div class="team__text-light">Воплощает идеи в реальность</div>
+              </div>
+            </li>
+            <li class="team__item">
+              <video class="team__item-video" src="assets/img/video/first__1.mp4"></video>
+              <div class="team__item-text">
+                <div class="team__text-black">Воробьева Дарья Олеговна</div>
+                <div class="team__text-orange">Директор по развитию компании<br>“БАКЛЕР“</div>
+                <div class="team__text-light">Находит точки роста</div>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="share" id="share">
+        <div class="container">
+          <div class="share__title w__head">Участие в выставках и программах развития<br>предпринимательства</div>
+          <div class="share__slider slider">
+            <div class="share__slider-item">
+              <div class="share__slider-img"><img src="assets/img/share__img1.png"></div>
+              <div class="share__slider-title">Выставка Премии Столля</div>
+              <div class="share__slider-text">Выставка в Воронеже, посвященная предпринимателю Вильгельму Столлю, проходит с 2014 г.</div><a class="share__slider-link" data-item-share="1">Читать больше<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="share__slider-item">
+              <div class="share__slider-img"><img src="assets/img/share__img2.png"></div>
+              <div class="share__slider-title">Выставка "Бизнес для бизнеса" в рамках III Воронежского форума предпринимателей</div><a class="share__slider-link" data-item-share="2">Читать больше<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="share__slider-item">
+              <div class="share__slider-img"><img src="assets/img/share__img3.png"></div>
+              <div class="share__slider-title">Участие в программе Молодежный бизнес России Воронежская область</div><a class="share__slider-link" data-item-share="3">Читать больше<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="share__slider-item">
+              <div class="share__slider-img"><img src="assets/img/share__img4.png"></div>
+              <div class="share__slider-title">Развитие экосистемы предпринимательства Программа акселерации для молодых компаний</div><a class="share__slider-link" data-item-share="4">Читать больше<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+            <div class="share__slider-item">
+              <div class="share__slider-img"><img src="assets/img/share__img5.png"></div>
+              <div class="share__slider-title">Программа Центра предпринимательства</div>
+              <div class="share__slider-text">У нас в планах запуск своего производства. Эта программа позволяет успешным бизнес проектам получить финансовую помощь.</div><a class="share__slider-link" data-item-share="5">Читать больше<i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="contact" id="contact">
+        <div class="contact-col">
+          <div class="contact__col-left">
+            <div id="map"></div>
+          </div>
+          <div class="contact__col-right">
+            <div class="contact__title">Контактная информация</div>
+            <div class="contact__under-title">Это полезные номера телефонов.<br>Звоните.</div>
+            <ul class="contact__list">
+              <li class="contact__item"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Юридический адрес:</span> 394038, Воронежская обл.,<br>г. Воронеж, ул. Дорожная, дом 4</li>
+              <li class="contact__item"><i class="fa fa-map-marker" aria-hidden="true"></i><span>Физический адрес:</span> 394038, Воронежская обл., г. Воронеж,<br>ул. Дорожная, д. 4</li>
+              <li class="contact__item"><i class="fa fa-phone" aria-hidden="true"></i><span>Телефоны:</span><a class="contact__link" href="tel:+74732294659">+7 ( 473 ) 229-46-59;</a><a class="contact__link" href="tel:+79611885329">+7 ( 961 ) 188-53-29</a></li>
+              <li class="contact__item"><i class="fa fa-envelope" aria-hidden="true"></i><span>Е-mail:</span> bakler.cpec@gmail.com</li>
+              <li class="contact__item"><span>Директор:</span> Шкарин Алексей Владимирович</li>
+            </ul>
+            <div class="contact__text">ООО "БАКЛЕР"<br>ИНН/КПП: 3664208851/366401001<br>БАНК: ЦЕНТРАЛЬНО-ЧЕРНОЗЕМНЫЙ БАНК ПАО<br>СБЕРБАНК Г. ВОРОНЕЖ<br>БИК: 042007681<br>К/счет: 30101810600000000681<br>Р/счет: 40702810813000008375<br></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <footer class="footer">
+      <div class="container footer__wrap">
+        <div class="footer__logo"><a href="index.html"><img src="assets/img/logo__b.png"></a></div>
+        <ul class="footer__mnu-list">
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="rate1.html">Нормы выдачи спецодежды</a></li>
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="#mistakes">Как сэкономить</a></li>
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="#requires">Отзывы</a></li>
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="#certificates">Сертификаты</a></li>
+        </ul>
+        <ul class="footer__mnu-list">
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="#team">Команда</a></li>
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="#share">Программы развития предпринимательства</a></li>
+          <li class="footer__mnu-item"><a class="footer__mnu-link" href="#contact">Контакты</a></li>
+        </ul>
+        <div class="footer__contact"><a class="phone__link phone__link-first" href="tel:+74732294659"><i class="fa fa-phone" aria-hidden="true"></i>+ 7 (473) 229-46-59</a><a class="phone__link" href="tel:+74733003708">+ 7 (473) 300-37-08</a><a class="email__link" href="mailto: bakler.cpec@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i>bakler.cpec@gmail.com</a>
+          <ul class="social__list">
+            <li class="social__item"><a href="https://www.facebook.com/" target="_blank"><img src="assets/img/fb.png"/></a></li>
+            <li class="social__item"><a href="https://new.vk.com/" target="_blank"><img src="assets/img/vk.png"/></a></li>
+            <li class="social__item"><a href="https://www.whatsapp.com" target="_blank"><img src="assets/img/wapp.png"/></a></li>
+            <li class="social__item"><a href="https://telegram.org/" target="_blank"><img src="assets/img/tg.png"/></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCeHBokZS3KFw-XiWbOK95bMEL_gEFmXzc&amp;callback=initMap"></script>
+  </body>
+</html>
