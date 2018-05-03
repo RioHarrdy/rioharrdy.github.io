@@ -5,9 +5,9 @@ $(document).ready(function(){
 	});	
 
 	(function(){
-		var durationAnimation = 200;
+		var durationAnimation = 150;
 		var firstSvg = new Vivus('firstSvg', {
-			type: 'oneByOne',
+			type: 'delayed',
 			duration: durationAnimation
 		});
 
