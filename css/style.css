@@ -332,7 +332,9 @@ nav:before {
   }
 }
 
-
+.logo svg {
+	cursor: pointer;
+}
 
 
 
