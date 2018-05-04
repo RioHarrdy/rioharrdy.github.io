@@ -240,7 +240,7 @@ nav:before {
   -webkit-animation: menu-animation 0.8s ease-out forwards;
           animation: menu-animation 0.8s ease-out forwards;
 }
-.menu {
+.popap {
   position: fixed;
   top: 50%;
   left: 50%;
@@ -252,12 +252,12 @@ nav:before {
           perspective: 1000;
 	color: white;
 }
-.menu .blog {
+.popap .blog {
 	opacity: 0;	
 	-webkit-transform: translate3d(0, 36px, 0);
 	transform: translate3d(0, 36px, 0);
 }
-.open .menu .blog {
+.open .popap .blog {
 	padding-top: 100px;
 	opacity: 1;
 	max-width: 400px;
