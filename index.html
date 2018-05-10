@@ -5,156 +5,202 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<title>Portfolio</title>
 </head>
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300" type="text/css" />	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/bootstrap-grid.min.css">
 	<link rel="stylesheet" href="css/style.css">
 <body>
 
-	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="col">
-					<div class="about">
-						<button class="menu-toggle"></button>
-					</div>
-				</div>
-				<div class="col">
-					<div class="logo">
-						<object id="firstSvg" type="image/svg+xml" data="img/logo.svg"></object>
-					</div>
-				</div>
-				<div class="col"><div class="contacts">
+	<div class="wrapper">
+		<div class="content">
 
-					<div class="menu">
-						<input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open"/>
-						<label class="menu-open-button" for="menu-open">
-							<span class="hamburger hamburger-1"></span>
-							<span class="hamburger hamburger-2"></span>
-							<span class="hamburger hamburger-3"></span>
-						</label>
+			<header class="header">			
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col">
+							<div class="about">
+								<a href="#" class="phone_btn btn about_btn">Обо мне</a>
+							</div>
+						</div>
+						<div class="col-5">
+							<div class="logo">						
+									<object id="firstSvg" type="image/svg+xml" data="img/logo.svg"></object>		
+							</div>
+						</div>
+						<div class="col">
+							<div class="wrap_contacts">
+								<a href="#" class="phone_btn btn contacts_btn">Контакты</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<nav>
+				<div class="popap_about_wrap">
+					<div class="container">
+						<div class="row align-items-center">	
+							<div class="col-12">
+								<div class="wrap_about">
+									<div class="phone_btn about_btn mod_a icon-arrow-left">Назад</div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<div class="photo">
+									<div class="my_photo"></div>
+								</div>
+							</div>
+							<div class="col-12 col-md-6">
+								<div class="bio">
+									Владею следующими технологиями:
+									- HTML5 - семантическая верстка;
+									- CSS3(SASS) - адаптивная верстка(мобильная first mobile), использование Bootstrap4, понимание гридов и флексбоксов;
+									- JavaScript - начальный уровень, знание различных библиотеки (jQuery, Ajax, Paralax.js, Animation.js и др.), API HTML5;
+									- Photoshop  на уровне "нарезания" макетов,  навыки работы c векторной графикой в формате SVG;
+									- работаю с GULP,  с системами контроля версий (GIT (github));
+									<span><i class="fab fa-html5"></i></span>
+									<span><i class="fab fa-css3"></i></span>
+									<span><i class="fab fa-js"></i></span>
+								</div>							
+							</div>
+						</div>
+					</div>
+				</div>	
+			</nav>
+
+			<div class="nav">		
+				<div id="nav-wrapper">	
+					<div class="phone_btn contacts_btn mod_c contacts_mod fas fa-arrow-right">Назад</div>		
+					<div class="f1 nav-left">
+						<h1>КОНТАКТЫ Владислав</h1>
+						<ul>
+							<li><a>Телефон</a></li>
+							<li><a>(+380)96-79-61-738</a></li>
+							<li><a>Почта</a></li>
+							<li><a>vladislavdudar1995@gmail.com</a></li>
+						</ul>
+					</div>
+					<div class="f1 nav-right"><a href="https://telegram.me/vladislavdudar" target="_blank"><span class="fab fa-telegram"></span></a>
+					<a href="https://api.whatsapp.com/send?phone=380967961738" target="_blank"><span class="fab fa-whatsapp"></span></a>
+					<a href="skype:wildspirit55?chat"><span class="fab fa-skype" target="_blank"></span></a>
+					<a href="https://www.facebook.com/vlad.dudar.3" target="_blank"><span class="fab fa-facebook"></span></a>
+					<a href="https://www.vk.com/vladislavdudar" target="_blank"><span class="fab fa-vk"></span></a>
+					<a href="https://www.instagram.com/dudarvlad/" target="_blank"><span class="fab fa-instagram"></span></a></div>
+				</div>
+			</div>
+
+			<div class="filter_link">
+				<a href="#" data-filter="all">Все сайты</a>
+				<a href="#" data-filter=".landing_work">Лендинги</a>
+				<a href="#" data-filter=".corporate_work">Корпоративные</a>
+				<a href="#" data-filter=".shop_work">Интернет магазины</a>
+			</div>
+
+			<div class="main">
+				<div class="container-fluid">
+					<div class="row no-gutters">
 						
-						<a href="#" class="menu-item"> <i class="fa fa-bar-chart"></i> </a>
-						<a href="#" class="menu-item"> <i class="fa fa-plus"></i> </a>
-						<a href="#" class="menu-item"> <i class="fa fa-heart"></i> </a>
-						<a href="#" class="menu-item"> <i class="fa fa-envelope"></i> </a>
-						<a href="#" class="menu-item"> <i class="fa fa-cog"></i> </a>
-					
-					</div>
-					
-					
-					<!-- filters -->
-					<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-							<defs>
-								<filter id="shadowed-goo">
-										
-										<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-										<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-										<feGaussianBlur in="goo" stdDeviation="3" result="shadow" />
-										<feColorMatrix in="shadow" mode="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 1 -0.2" result="shadow" />
-										<feOffset in="shadow" dx="1" dy="1" result="shadow" />
-										<feBlend in2="shadow" in="goo" result="goo" />
-										<feBlend in2="goo" in="SourceGraphic" result="mix" />
-								</filter>
-								<filter id="goo">
-										<feGaussianBlur in="SourceGraphic" result="blur" stdDeviation="10" />
-										<feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
-										<feBlend in2="goo" in="SourceGraphic" result="mix" />
-								</filter>
-							</defs>
-					</svg>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix landing_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>1</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>				
+						</div>			
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix corporate_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>2</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix landing_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>3</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>
+						</div>				
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix corporate_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>4</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix landing_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>5</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>
+						</div>				
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix corporate_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>6</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix landing_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>7</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-sm-6 col-md-4 col-lg-3 mix shop_work">
+							<div class="work">
+								<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
+								<div class="work__desc">
+									<h2>Some <span>8</span></h2>
+									<p>Lorem ipsum dolor sit amet.</p>
+									<a href="#">View</a>
+								</div>					
+							</div>
+						</div>	
 
-				</div></div>
+					</div>
+				</div>
 			</div>
-		</div>
-	</header>
 
-	<nav>	
-		<div class="popap">
-			<div class="blog">
-					Hello my name  is <br> Vlad
-			</div>			
 		</div>
-	</nav>
-	
-	<main class="main">
-		<div class="container">
-			<div class="row">
-				<div class="col-12 col-sm-6 col-md-4">
-					<div class="work">
-						<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
-						<div class="work__desc">
-							<h2>Some <span>Text</span></h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="#">View</a>
+		<footer class="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<a href="index.html" class="footer_link">Владислав Дудар - 2018</a>
+							<a href="https://github.com/RioHarrdy" target="_blank"><i class="fab fa-github"></i></a>
 						</div>
 					</div>
 				</div>
-				<div class="col-12 col-sm-6 col-md-4">
-					<div class="work">
-						<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
-						<div class="work__desc">
-							<h2>Some <span>Text</span></h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="#">View</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-4">
-					<div class="work">
-						<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
-						<div class="work__desc">
-							<h2>Some <span>Text</span></h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="#">View</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-4">
-					<div class="work">
-						<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
-						<div class="work__desc">
-							<h2>Some <span>Text</span></h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="#">View</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-4">
-					<div class="work">
-						<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
-						<div class="work__desc">
-							<h2>Some <span>Text</span></h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="#">View</a>
-						</div>
-					</div>
-				</div>
-				<div class="col-12 col-sm-6 col-md-4">
-					<div class="work">
-						<div style="background-image: url('img/site_prev/alphacoast.jpg')" alt="alt" class="work__img"></div>
-						<div class="work__desc">
-							<h2>Some <span>Text</span></h2>
-							<p>Lorem ipsum dolor sit amet.</p>
-							<a href="#">View</a>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-	<footer class="footer">
-		<div class="container">
-			<div class="row">
-				<div class="col-12">
-					Vladislav Dudar
-				</div>
-			</div>
-		</div>
-	</footer>	
+			</footer>	
+	</div>
 
 	<script src="js/jquery-2.0.2.js"></script>
-	<script src="js/vivus.min.js"></script>	
+	<script src="js/vivus.min.js"></script>
+	<script src="js/mixitup.min.js"></script>	
 	<script src="js/common.js"></script>
 </body>
 </html>
